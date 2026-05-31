@@ -16,7 +16,7 @@ Basic HTML file used to execute JavaScript code.
 
 ### app.js
 
-Contains examples and practice questions related to strings and arrays.
+Contains examples, practice questions, and mini-projects related to strings and arrays.
 
 ---
 
@@ -84,6 +84,27 @@ Contains examples and practice questions related to strings and arrays.
 
 * Array-based coding exercises
 * Real-world array operations
+* Student Marks Analyzer
+
+---
+
+## Mini Project: Student Marks Analyzer
+
+A simple JavaScript program that analyzes student marks stored in an array and calculates:
+
+* Total Marks
+* Average Marks
+* Highest Marks
+* Lowest Marks
+
+### Concepts Used
+
+* Arrays
+* for Loop
+* Array Length
+* Mathematical Operations
+* Math.max()
+* Math.min()
 
 ---
 
@@ -96,6 +117,7 @@ After completing this module, I learned:
 * Searching and sorting data
 * Understanding mutable vs immutable data
 * Working with nested arrays
+* Performing data analysis using arrays
 * Solving basic JavaScript practice problems
 
 ---
