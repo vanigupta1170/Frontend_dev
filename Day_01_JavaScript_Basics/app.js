@@ -19,6 +19,7 @@ console.log('The sum of a and b is: ' + (a+b));
 console.log('The difference of a and b is: ' + (a-b));
 console.log('The product of a and b is: ' + (a*b));
 console.log('The quotient of a and b is: ' + (a/b));
+console.log('Done with arithmetic operations');
 
 //unary operators
 let x=7,y=5;
