@@ -1,94 +1,127 @@
-# JavaScript Fundamentals Practice
+# Day 04 - JavaScript Objects
 
-This project contains my JavaScript practice exercises while learning the fundamentals of the language. The programs are executed using an HTML file that links to an external JavaScript file.
+This folder contains my practice exercises for learning JavaScript Objects, Arrays of Objects, the Math Object, Random Number Generation, and a simple Number Guessing Game.
 
-## Topics Covered
-
-### Objects
-
-* Creating JavaScript objects
-* Accessing object properties
-* Updating object values
-* Adding new properties
-* Nested objects (Object of Objects)
-
-### Arrays of Objects
-
-* Creating and working with arrays containing multiple objects
-* Accessing object properties inside arrays
-
-### Math Object
-
-Practice with built-in JavaScript Math methods:
-
-* `Math.PI`
-* `Math.sqrt()`
-* `Math.pow()`
-* `Math.random()`
-* `Math.floor()`
-
-### Random Number Generation
-
-Programs demonstrating:
-
-* Generating random numbers within a specific range
-* Simulating dice rolls (1–6)
-* Creating custom random number generators
-
-### Number Guessing Game
-
-A simple console-based game where:
-
-1. The user enters a maximum number.
-2. A random number is generated.
-3. The user keeps guessing until the correct number is found.
-4. The user can type `quit` to exit the game.
-
-### Practice Questions
-
-Implemented solutions for:
-
-* Dice Roll Simulator
-* Car Object Creation and Property Access
-* Person Object Modification and Property Addition
-
-## Project Structure
+## Folder Structure
 
 ```text
-project-folder/
+Day_04_objects/
 │
 ├── index.html
+├── app.js
+│
+├── guess.html
+├── guessgame.js
+│
+├── pq.html
 ├── pq.js
+│
 └── README.md
 ```
 
-### index.html
+## Files Description
 
-Loads the JavaScript file using:
+### 1. app.js + index.html
 
-```html
-<script src="pq.js"></script>
-```
+Topics covered:
 
-### pq.js
+* Creating JavaScript Objects
+* Accessing Object Properties
+* Updating and Adding Properties
+* Nested Objects (Object of Objects)
+* Arrays of Objects
+* JavaScript Math Object
 
-Contains all JavaScript practice programs and exercises.
+  * Math.PI
+  * Math.sqrt()
+  * Math.pow()
+  * Math.random()
+  * Math.floor()
 
-## How to Run
+Examples included:
 
-1. Clone the repository.
-2. Open the project folder.
-3. Open `index.html` in your browser.
-4. Open the browser console (`F12` → Console) to view the output.
-
-## Learning Goals
-
-* Understand JavaScript objects and arrays
-* Practice object manipulation
-* Learn random number generation
-* Build logic using loops and conditionals
-* Improve problem-solving skills through small projects
+* Student Object
+* Items Object
+* Social Media Post Object
+* Class Information Object
+* Random Number Generator
 
 ---
 
-Created as part of my JavaScript learning journey.
+### 2. guessgame.js + guess.html
+
+A console-based Number Guessing Game.
+
+Features:
+
+* User enters a maximum number.
+* Program generates a random number.
+* User keeps guessing until the correct number is found.
+* User can type `quit` to exit the game.
+
+Concepts practiced:
+
+* Loops
+* Conditional Statements
+* User Input using `prompt()`
+* Random Number Generation
+* Game Logic
+
+---
+
+### 3. pq.js + pq.html
+
+Practice Question Solutions:
+
+#### Question 1
+
+Generate a random dice roll between 1 and 6.
+
+#### Question 2
+
+Create a Car object and print the car name.
+
+#### Question 3
+
+Create a Person object, update the city, and add a new country property.
+
+Concepts practiced:
+
+* Objects
+* Object Property Access
+* Object Property Update
+* Adding New Properties
+* Random Number Generation
+
+---
+
+## How to Run
+
+1. Open the corresponding HTML file in a browser:
+
+   * `index.html`
+   * `guess.html`
+   * `pq.html`
+
+2. Open Developer Tools (`F12`).
+
+3. Check the Console tab to view outputs.
+
+---
+
+## Learning Outcomes
+
+By completing these exercises, I practiced:
+
+* JavaScript Objects
+* Nested Objects
+* Arrays of Objects
+* Math Object Methods
+* Random Number Generation
+* Loops and Conditions
+* User Interaction with Prompt
+* Basic Problem Solving
+
+---
+
+Part of my JavaScript learning journey and frontend development practice.
