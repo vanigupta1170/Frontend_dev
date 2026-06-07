@@ -1,127 +1,102 @@
-# Day 04 - JavaScript Objects
+# Day 04 - JavaScript Objects & Math Methods 🚀
 
-This folder contains my practice exercises for learning JavaScript Objects, Arrays of Objects, the Math Object, Random Number Generation, and a simple Number Guessing Game.
+## Overview
 
-## Folder Structure
+This project contains practice exercises focused on JavaScript Objects, Object Manipulation, and Math Methods.
 
-```text
-Day_04_objects/
-│
-├── index.html
-├── app.js
-│
-├── guess.html
-├── guessgame.js
-│
-├── pq.html
-├── pq.js
-│
-└── README.md
-```
-
-## Files Description
-
-### 1. app.js + index.html
-
-Topics covered:
-
-* Creating JavaScript Objects
-* Accessing Object Properties
-* Updating and Adding Properties
-* Nested Objects (Object of Objects)
-* Arrays of Objects
-* JavaScript Math Object
-
-  * Math.PI
-  * Math.sqrt()
-  * Math.pow()
-  * Math.random()
-  * Math.floor()
-
-Examples included:
-
-* Student Object
-* Items Object
-* Social Media Post Object
-* Class Information Object
-* Random Number Generator
+The goal of this module is to understand how objects store and manage data, how object properties can be accessed and modified, and how JavaScript's built-in Math functions can be used to generate random values.
 
 ---
 
-### 2. guessgame.js + guess.html
+## Topics Covered
 
-A console-based Number Guessing Game.
+### 1. Random Dice Roll
 
-Features:
+* Generate a random number between 1 and 6 using:
 
-* User enters a maximum number.
-* Program generates a random number.
-* User keeps guessing until the correct number is found.
-* User can type `quit` to exit the game.
+  * `Math.random()`
+  * `Math.floor()`
 
-Concepts practiced:
+### 2. Car Object
 
-* Loops
-* Conditional Statements
-* User Input using `prompt()`
-* Random Number Generation
-* Game Logic
+* Create an object representing a car.
+* Access object properties using dot notation.
+
+### 3. Person Object
+
+* Create a person object.
+* Update existing properties.
+* Add new properties dynamically.
+
+### 4. Student Object
+
+* Store student information in an object.
+* Display object details.
+
+### 5. Property Existence Check
+
+* Use the `in` operator to verify whether a property exists in an object.
+
+### 6. Rectangle Area Calculator
+
+* Store dimensions in an object.
+* Calculate area using object properties.
+
+### 7. Array of Objects
+
+* Store multiple book records using an array of objects.
+* Access nested data.
+
+### 8. Product Discount Calculator
+
+* Calculate discounted price using object values.
+
+### 9. Random Number Generator
+
+* Generate random numbers within a specified range.
+
+### 10. Movie Object
+
+* Create and display movie information using template literals.
 
 ---
 
-### 3. pq.js + pq.html
-
-Practice Question Solutions:
-
-#### Question 1
-
-Generate a random dice roll between 1 and 6.
-
-#### Question 2
-
-Create a Car object and print the car name.
-
-#### Question 3
-
-Create a Person object, update the city, and add a new country property.
-
-Concepts practiced:
+## Concepts Practiced
 
 * Objects
-* Object Property Access
-* Object Property Update
+* Object Properties
+* Object Modification
 * Adding New Properties
-* Random Number Generation
-
----
-
-## How to Run
-
-1. Open the corresponding HTML file in a browser:
-
-   * `index.html`
-   * `guess.html`
-   * `pq.html`
-
-2. Open Developer Tools (`F12`).
-
-3. Check the Console tab to view outputs.
-
----
-
-## Learning Outcomes
-
-By completing these exercises, I practiced:
-
-* JavaScript Objects
-* Nested Objects
 * Arrays of Objects
-* Math Object Methods
+* Dot Notation
+* Template Literals
+* Math.random()
+* Math.floor()
 * Random Number Generation
-* Loops and Conditions
-* User Interaction with Prompt
-* Basic Problem Solving
 
 ---
 
-Part of my JavaScript learning journey and frontend development practice.
+## Learning Outcome
+
+Through these exercises, I learned:
+
+* How to create and manipulate objects.
+* How to access and update object properties.
+* How arrays and objects work together.
+* How random number generation works in JavaScript.
+* How to solve practical problems using object-oriented thinking.
+
+---
+
+## Tech Stack
+
+* HTML
+* JavaScript (ES6)
+
+---
+
+### Author
+
+Shivani Gupta
+
+Learning Java Full Stack Development and building projects to strengthen JavaScript fundamentals and problem-solving skills.

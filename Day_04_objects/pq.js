@@ -1,28 +1,53 @@
-//Q1. Generate a random dice roll (1 to 6)
-let diceRoll = Math.floor(Math.random() * 6) + 1;
-console.log("Dice Roll:", diceRoll);
-
-
-//Q2. Create a car object and print the car's name
-const car = {
-    name: "Honda City",
-    model: "2023",
-    color: "White"
+//Q4. Create a student object and print details
+const student = {
+    name: "Shivani",
+    age: 21,
+    course: "B.Tech",
+    grade: "A"
 };
 
-console.log("Car Name:", car.name);
+console.log("Student Details:", student);
 
-//Q3. Create a Person object, update city, and add country
-const person = {
-    name: "John",
-    age: 25,
-    city: "Delhi"
+//Q5. Check if a property exists in an object
+console.log("Does student have grade?", "grade" in student);
+
+//Q6. Calculate area using an object
+const rectangle = {
+    length: 10,
+    width: 5
 };
 
-// Update city
-person.city = "New York";
+let area = rectangle.length * rectangle.width;
+console.log("Area of Rectangle:", area);
 
-// Add country
-person.country = "United States";
+//Q7. Store multiple books in an array of objects
+const books = [
+    { title: "Atomic Habits", author: "James Clear" },
+    { title: "The Alchemist", author: "Paulo Coelho" }
+];
 
-console.log(person);
+console.log("First Book:", books[0].title);
+
+//Q8. Create a product object and apply discount
+const product = {
+    name: "Laptop",
+    price: 50000,
+    discount: 10
+};
+
+let finalPrice = product.price - (product.price * product.discount / 100);
+
+console.log("Final Price:", finalPrice);
+
+//Q9. Generate a random number between 1 and 100
+let randomNum = Math.floor(Math.random() * 100) + 1;
+console.log("Random Number:", randomNum);
+
+//Q10. Create an object representing a movie
+const movie = {
+    title: "Interstellar",
+    rating: 9.0,
+    year: 2014
+};
+
+console.log(`${movie.title} was released in ${movie.year}`);
