@@ -164,3 +164,14 @@ function oddorEvenFactory(request){
 
 let request="odd";//even
 let func=oddorEvenFactory(request);
+
+//arrow Function
+const square = (n) => {
+    return n*n;
+}
+
+console.log(square(5));
+
+const cube = n => n*n*n;
+
+console.log(cube(3));
