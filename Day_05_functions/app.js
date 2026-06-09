@@ -175,3 +175,15 @@ console.log(square(5));
 const cube = n => n*n*n;
 
 console.log(cube(3));
+
+//CallBack Function
+function processUser(name, callback){
+    console.log(`Processing user: ${name}`);
+    callback();
+}
+
+function completed(){
+    console.log("Task Completed");
+}
+
+processUser("Shivani", completed);
