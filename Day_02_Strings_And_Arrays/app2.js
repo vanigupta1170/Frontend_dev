@@ -62,3 +62,4 @@ console.log(nums);
 console.log(nums[0][1]); //Accessing the second element of the first array
 console.log(nums[1][0]); //Accessing the first element of the second array
 
+//End of file
